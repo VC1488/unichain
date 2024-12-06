@@ -20,7 +20,7 @@ async def super_bridge(private_key, rpc, contract_address, amount):
 
     to = account_address
     min_gas_limit = 50000
-    extra_data = b''
+    extra_data = bytes.fromhex('7375706572627269646765000000000000000000000000000000000000000000')
     value = web3.to_wei(amount, 'ether')
 
     nonce = await web3.eth.get_transaction_count(account_address, 'latest')
