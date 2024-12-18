@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+venv/
+.idea/
+.env
+.coverage
+*.py,cover
+.cache/
+.ipynb_checkpoints
+data/config.py
+data/private_keys.txt
+data/proxies.txt
+logs/
+config/
